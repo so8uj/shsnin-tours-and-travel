@@ -516,6 +516,28 @@ Main Header
 .pac_img_sec img{
     width: 100%;
 }
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+    color: var(--color-c);
+    background: var(--color-b);
+}
+.accordion-button:not(.collapsed)::after {
+    filter: invert(48%) sepia(16%) saturate(7373%) hue-rotate(309deg) brightness(245%) contrast(190%);
+}
+.hotel_location{
+    color: #7f7f7f !important;
+}
+.hotel_price{
+    color: var(--color-b);
+    font-size: 25px;
+}
+
+
+
+
+
 
 
 
